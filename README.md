@@ -1,4 +1,4 @@
-# Project Title: Enhanced Dialogue Summarization and Content Detoxification with FLAN-T5
+# Enhanced Dialogue Summarization and Content Detoxification with FLAN-T5
 
 ## Overview
 This project focuses on dialogue summarization using generative AI techniques with a specific emphasis on enhancing model performance through prompt engineering. Additionally, it explores various fine-tuning approaches including full finetuning, Parameter Efficient Fine-Tuning (PEFT), and reinforcement learning techniques such as Proximal Policy Optimization (PPO) for generating less-toxic summaries. The main goal is to create efficient and effective models for summarizing dialogues while mitigating the presence of toxic content.
