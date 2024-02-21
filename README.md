@@ -14,12 +14,7 @@ Here, we conduct fine-tuning of the FLAN-T5 model for dialogue summarization. We
 ### 3. Fine-Tuning with Reinforcement Learning (PPO) and PEFT to Generate Less-Toxic Summaries
 In this part, we delve into fine-tuning the model using reinforcement learning techniques, particularly Proximal Policy Optimization (PPO). We leverage PEFT along with Meta AI's RoBERTa-based hate speech model to generate summaries with reduced toxic content. The objective is to develop models that not only summarize dialogues effectively but also promote content detoxification by reducing the presence of harmful language.
 
-## Files and Libraries
 
-### Files:
-- **Model weights**: 
-  - Full finetuning weights: [flan-dialogue-summary-checkpoint](./flan-dialogue-summary-checkpoint)
-  - PEFT finetuning weights: [peft-dialogue-summary-checkpoint](./peft-dialogue-summary-checkpoint)
 
 ### Libraries to Install:
 - Trl: for accessing PPO
@@ -50,7 +45,3 @@ In this part, we delve into fine-tuning the model using reinforcement learning t
 ### Meta AI's RoBERTa-based Hate Speech Model
 - **Model**: facebook/roberta-hate-speech-dynabench-r4-target
 
-## How to Run the Notebook?
-1. Upload both fine-tuning weights folders (`flan-dialogue-summary-checkpoint` and `peft-dialogue-summary-checkpoint`) in your environment.
-2. Change the path accordingly in the notebook.
-3. You are ready to execute the notebook and explore the dialogue summarization and content detoxification techniques.
